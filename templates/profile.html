@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/reset.css">
+    <link rel="stylesheet" href="../static/global.css">
+    <link rel="stylesheet" href="../static/Profile/profile.css">
+    <link rel="stylesheet" href="../static/Profile/profile-reponsive.css">
+    <script src="https://kit.fontawesome.com/9ae88a3601.js" crossorigin="anonymous"></script>
+    <title>ORKUT</title>
+</head>
+<body>
+
+    <header class="menu orkut-button-bg ">
+        <nav>
+            <div class="imagem">
+                <img src="../static/imgs/orkut logo_icon.png" 
+                height="100px"
+                width="90px"
+                alt="" 
+                alt="">
+            </div>
+            <div class="orkut">
+                <h1>ORKUT</h1>
+            </div>
+            <div class = "amigos">
+
+            </div>
+            
+            <div class="inicio">
+                <h1>Inicio</h1>
+
+            </div>
+            <div>
+                <h1>Pagina de recados</h1>
+            </div>
+
+            <div>
+                <h1>Amigos</h1>
+            </div>
+
+            <div>
+                <h1>Comunidade</h1>
+            </div>
+            
+
+
+        </nav>
+    </header>
+   
+    <main class="container">
+        <aside class="photo">
+            <div class="photo__avatar">
+                <img src="../static/imgs/foto-perfil.jpeg" 
+                height="250px"
+                width="250px"
+                alt="" 
+                srcset=""
+                >
+            </div>
+            <div class="photo__name">
+                <h1 class="pink-font">Afuenzo</h1>
+            </div>
+            <div class="photo__tools">
+                <div class="photo__tools__messages">
+                    <i class="fa-solid fa-message orkut-font-color"></i>
+                    <a href="#" class="orkut-link">SCRAPS</a>
+                </div>
+                <div class="photo__tools__editar">
+                    <i class="fa-solid fa-pen orkut-font-color"></i>
+                    <a href="#" class="orkut-link">Editar perfis</a>
+                </div>
+            </div>
+        </aside>
+       <div class ="descricao">
+        <section class="description">
+            <h5>Descrição</h5>
+            <p>Me chamo Iago affonso, tenho 19 anos,+9
+                 1,79 de altura, signo: virgem. Faço ciência da computação e sou aspirante do Exército Brasileiro. Sou comprometido, torço para o Flamengo, tenho indícios de calvice porém nada grave. Sou amante de adrenalina, tenho uma moto 600 cilindradas onde percorro o Brasil, tenho parentes mexicanos refugiados no Estados Unidos. Sou o melhor da minha rua no ping pong, meu campeonato foi contra Ayko de Okinawa e, por esse motivo que eu amo o Japão. Além disso, fui preso em 2015 por transplante de cabelo ilegal. esse sou eu S2</p>
+                 
+                 {{ form | safe }}
+                    <div class="comentario">
+                        <i class="fa-solid fa-message orkut-font-color"></i>
+                        <input type="text" placeholder="comentario" name="comenta" id="fild__comentario">
+                    </div>
+                    </form>
+                <div>
+                    {{ cm | safe }}
+
+                </div>
+        </section>
+    </div>
+        <aside class="couter">
+            
+            <div class="couter__community">
+            
+                    <img src="../static/imgs/Joao.jpg"
+                    height="110px"
+                    width="110px"
+                    alt="" 
+                    srcset=""
+                    > 
+                       
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
